@@ -17,7 +17,7 @@ const authLink = setContext((_, { headers }) => {
 })
 
 const appLink = createHttpLink({
-  uri: 'https://shrouded-refuge-21262.herokuapp.com/'
+  uri: 'https://shrouded-refuge-21262.herokuapp.com'
 })
 
 const client = new ApolloClient({
