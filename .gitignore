@@ -1,0 +1,10 @@
+.env
+dist 
+build
+node_modules
+*.log
+logs
+log
+.DS_Store
+.eslintcache
+*cache

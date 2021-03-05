@@ -1,0 +1,25 @@
+.page-title {
+    display: block !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.form-container {
+    width: 400px;
+    margin: auto
+}
+
+.page-not-found {
+    display: flex;
+    min-height: 10rem;
+    margin: 200px auto;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    font-size: large;
+}
