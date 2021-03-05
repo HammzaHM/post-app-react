@@ -8,3 +8,5 @@ log
 .DS_Store
 .eslintcache
 *cache
+# Local Netlify folder
+.netlify
