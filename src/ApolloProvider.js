@@ -17,7 +17,7 @@ const authLink = setContext((_, { headers }) => {
 })
 
 const appLink = createHttpLink({
-  uri: process.env.REACT_APP_API_NODE
+  uri: 'https://shrouded-refuge-21262.herokuapp.com/'
 })
 
 const client = new ApolloClient({
